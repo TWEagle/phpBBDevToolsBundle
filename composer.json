@@ -1,0 +1,28 @@
+{
+	"name": "phpbb/dev-tools-bundle",
+	"description": "A symfony bundle that provides a number of tools to help with development.",
+	"keywords": ["phpBB", "development", "tools"],
+	"type": "symfony-bundle",
+	"homepage": "http://www.phpbb.com",
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "phpBB Group",
+			"email": "operations@phpbb.com",
+			"homepage": "https://phpbb.com/"
+		}
+	],
+	"require": {
+		"symfony/symfony": "2.1.*"
+	},
+	"minimum-stability": "dev",
+	"autoload": {
+		"psr-0": { "phpBB\\DevToolsBundle": "" }
+	},
+	"target-dir": "phpBB/DevToolsBundle",
+	"extra": {
+		"branch-alias": {
+			"dev-master": "1.0.0-dev"
+		}
+	}
+}
